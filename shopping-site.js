@@ -17,7 +17,7 @@ function generateProductsHtml() {
     products.forEach((product, index) => {
         productsHtml += `
            <div class="div1">
-            <img src="./images/${product.image}" alt="${product.name}">
+            <img src="images/${product.image}" alt="${product.name}">
             <h3 style="margin-top:0px;font-size:20px;">${product.name}</h3>
             <div class="flex2">
                 <h4 style="margin-top:-15px; font-size:17px; ">Price: ${product.price}</h4>
