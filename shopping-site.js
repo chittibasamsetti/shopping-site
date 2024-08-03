@@ -55,7 +55,7 @@ function reloadCart() {
             cartListHtml += `
              <div class="cart-flex">
                 <div class="cart-flex1">
-                    <img src="../images/${product.image}" style="width:70px;height:70px;">
+                    <img src="images/${product.image}" style="width:70px;height:70px;">
                     <p style="font-size:20px;">${product.name}</p>
                 </div>
                 <span style="font-size:20px;margin-left:-330px;margin-right:50px">${product.price * product.quantity}</span>
